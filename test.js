@@ -21,3 +21,26 @@ totalLivres -= 10
 totalLivres +=5
 let affichageTotalLivres = "Notre bibliothèque possède TOTAL livres" + totalLivres
 console.log(affichageTotalLivres)
+
+let me = {
+    name: "Doe",
+      age: 50,
+        hobbies: "MX"
+  }
+  console.log(me.age)
+  
+  me.class = "IT"
+  console.log(me)
+
+  let ticket = {
+    nomFilm: "Batman",
+      prix: 50,
+        numeroSalle: 3
+  }
+  let nom = "Doe"
+  
+  nomFilm = ticket.nomFilm
+  numeroSalle = ticket.numeroSalle
+  prix = ticket.prix
+  console.log("Bonjour "+ nom + " Votre film"+ nomFilm+ " est en salle"+ numeroSalle + " au prix de "+ prix)
+  
