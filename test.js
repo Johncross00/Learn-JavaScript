@@ -43,4 +43,7 @@ let me = {
   numeroSalle = ticket.numeroSalle
   prix = ticket.prix
   console.log("Bonjour "+ nom + " Votre film"+ nomFilm+ " est en salle"+ numeroSalle + " au prix de "+ prix)
+
+  const collection = ["film", "series"]
+  
   
